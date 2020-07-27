@@ -1,0 +1,109 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.container {
+	width: 1140px;
+	margin: 0 auto;
+	
+}
+.full-wrapper {
+	width: 100%;
+}
+ul,li {
+	/*display: inline-block;*/
+	
+}
+.menu ul li a {
+	text-decoration: none;
+	color: black;
+}
+.menu ul li a:hover {
+	color: red;
+}
+body {
+	
+}
+.b {
+	background-image: url(./images/vector.png);
+	background-repeat: no-repeat;
+}
+.header-top {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 0px;
+}
+.call-now {
+	display: flex;
+	justify-content: space-between;
+}
+.phone-number p {
+	line-height: 8px;
+	padding-left: 10px;
+	
+}
+.menu {
+	padding-top: 10px;
+}
+.search-icon {
+	padding-top: 15px;
+}
+.header-mid {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 70px;
+}
+.header-mid-left {
+	padding-top: 200px;
+	width:40%;
+}
+.header-mid-right {
+	padding-top: 50px;
+	width: 50%;
+}
+.h2 {
+	font-weight: 900px;
+}
+.about-company {
+	display: flex;
+	padding-bottom: 70px;
+}
+
+.about-company-left {
+	padding-right: 30px;
+}
+.about-company-right {
+	
+}
+.about-company-right a {
+	color: red;
+}
+.about-company-right h2 {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.about-company-bottom {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 70px 0px;
+}
+.box {
+	width: 20%;
+	
+}
+.x {
+	border-right: 1px solid #d6cfcf;
+}
+.recent-news {
+	padding-top: 70px;
+}
+.recent-news-top {
+	text-align: center;
+}
+.recent-news-top p {
+	padding-bottom: 30px;
+}
+.recent-news-bottom {
+	padding-bottom: 70px;
+}
